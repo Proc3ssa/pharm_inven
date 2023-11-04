@@ -1,0 +1,569 @@
+[12-Jul-2021 03:37:08 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(1, '20')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Aziah', '0545744420', 'Asafo Kumasi', 'Bought Para', '20', '["1"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 03:37:51 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(2, '20')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Aziah', '0545744420', 'Asafo Kumasi', 'Bought Para', '20', '["1"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 03:39:59 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(3, '20')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Agyapong Alex', '0545744420', 'Asafo Kumasi', 'Hello world', '20', '["2"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 03:41:55 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(4, '20')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Agyapong Alex', '0545744420', 'Asafo Kumasi', 'Hello world', '20', '["2"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 03:43:08 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(937): DbHandler->addCreditsPayment('1', 20)
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 03:56:04 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(5, '27')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Afabuy Ghana', '0545744420', 'p.o.box ay 426', 'nm', '27', '["3"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 04:04:55 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(937): DbHandler->addCreditsPayment('1', 20)
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 04:05:45 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(937): DbHandler->addCreditsPayment('3', 20)
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 04:06:43 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(6, '015')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Agyapong Alex', '0545744420', 'Asafo Kumasi', 'j"LK:', '015', '["5"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 04:11:42 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(7, '20')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('aziah daniel', '0545744420', 'p.o.box ay 426', 'Sold on credit', '20', '["6"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 04:13:59 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(937): DbHandler->addCreditsPayment('2', 20)
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[12-Jul-2021 04:26:07 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(937): DbHandler->addCreditsPayment('1', 20)
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[15-Jul-2021 23:27:28 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(937): DbHandler->addCreditsPayment('1', 20)
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[16-Jul-2021 05:43:01 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(8, '45')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Daniel Aziah', '0545744420', 'Asafo Kumasi', 'ngfffffffffffff...', '45', '["24"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[16-Jul-2021 05:43:59 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(937): DbHandler->addCreditsPayment('1', 20)
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[18-Jul-2021 01:55:26 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(9, '2000')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Micheal Smit', '0200127614', 'Bantam', 'Sold', '2000', '["26"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Jul-2021 16:45:01 America/New_York] PHP Warning:  fopen(uploads/invoices/STM1000119748765874.pdf): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php on line 9584
+[17-Jul-2021 16:45:01 America/New_York] Slim Application Error:
+Type: Mpdf\MpdfException
+Message: Unable to create output file uploads/invoices/STM1000119748765874.pdf
+File: /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php
+Line: 9587
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(1148): Mpdf\Mpdf->Output('uploads/invoice...', 'F')
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Jul-2021 16:45:02 America/New_York] PHP Warning:  fopen(uploads/invoices/STM100012883714443.pdf): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php on line 9584
+[17-Jul-2021 16:45:02 America/New_York] Slim Application Error:
+Type: Mpdf\MpdfException
+Message: Unable to create output file uploads/invoices/STM100012883714443.pdf
+File: /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php
+Line: 9587
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(1148): Mpdf\Mpdf->Output('uploads/invoice...', 'F')
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Jul-2021 16:45:35 America/New_York] PHP Warning:  fopen(uploads/invoices/STM1000146136843951.pdf): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php on line 9584
+[17-Jul-2021 16:45:35 America/New_York] Slim Application Error:
+Type: Mpdf\MpdfException
+Message: Unable to create output file uploads/invoices/STM1000146136843951.pdf
+File: /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php
+Line: 9587
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(1148): Mpdf\Mpdf->Output('uploads/invoice...', 'F')
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Jul-2021 16:45:37 America/New_York] PHP Warning:  fopen(uploads/invoices/STM100014090434370.pdf): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php on line 9584
+[17-Jul-2021 16:45:37 America/New_York] Slim Application Error:
+Type: Mpdf\MpdfException
+Message: Unable to create output file uploads/invoices/STM100014090434370.pdf
+File: /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php
+Line: 9587
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(1148): Mpdf\Mpdf->Output('uploads/invoice...', 'F')
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Jul-2021 16:46:00 America/New_York] PHP Warning:  fopen(uploads/invoices/STM1000133025894508.pdf): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php on line 9584
+[17-Jul-2021 16:46:00 America/New_York] Slim Application Error:
+Type: Mpdf\MpdfException
+Message: Unable to create output file uploads/invoices/STM1000133025894508.pdf
+File: /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php
+Line: 9587
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(1148): Mpdf\Mpdf->Output('uploads/invoice...', 'F')
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Jul-2021 16:46:02 America/New_York] PHP Warning:  fopen(uploads/invoices/STM1000118941027258.pdf): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php on line 9584
+[17-Jul-2021 16:46:02 America/New_York] Slim Application Error:
+Type: Mpdf\MpdfException
+Message: Unable to create output file uploads/invoices/STM1000118941027258.pdf
+File: /home/adomhzbe/pharmacy.projectghana.org/api/vendor/mpdf/mpdf/src/Mpdf.php
+Line: 9587
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(1148): Mpdf\Mpdf->Output('uploads/invoice...', 'F')
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[18-Jul-2021 22:45:37 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(10, '200')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Afabuy Ghana', '0545744420', 'p.o.box ay 426', '', '200', '["29"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[18-Jul-2021 22:46:34 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(937): DbHandler->addCreditsPayment('1', 20)
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[19-Jul-2021 18:36:57 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:57 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:36:58 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:05 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:05 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:05 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:05 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:05 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:05 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Warning:  require_once(../include/DbHandler.php): failed to open stream: No such file or directory in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[19-Jul-2021 18:37:06 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../include/DbHandler.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php on line 12
+[20-Jul-2021 04:18:26 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php(1004): DbHandler->addCreditsPayment(5, '345')
+#1 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2009): DbHandler->addCreditRecord('Afabuy Ghana', '0545744420', 'p.o.box ay 426', '', '345', '["137"]')
+#2 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#11 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#12 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[20-Jul-2021 04:19:19 Asia/Kolkata] Slim Application Error:
+Type: Error
+Message: Call to a member function bind_param() on bool
+File: /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php
+Line: 787
+Trace: #0 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(937): DbHandler->addCreditsPayment('5', 345)
+#1 [internal function]: Closure->{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(40): call_user_func(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(281): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#4 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/Route.php(268): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(503): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(392): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/adomhzbe/pharmacy.projectghana.org/api/vendor/slim/slim/Slim/App.php(297): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /home/adomhzbe/pharmacy.projectghana.org/api/public/index.php(2535): Slim\App->run()
+#11 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[24-Jul-2021 05:55:47 America/New_York] PHP Notice:  Undefined variable: price in /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php on line 700
+[24-Jul-2021 05:55:47 America/New_York] PHP Notice:  Undefined variable: maxPrice in /home/adomhzbe/pharmacy.projectghana.org/api/include/DbHandler.php on line 701
